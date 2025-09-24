@@ -1,0 +1,12 @@
+/*
+ Theme Name: Rakuruma Child
+ Theme URI:  https://example.com/
+ Description: ラクルマ用 子テーマ（LPセクション追加用）
+ Author: 吉永
+ Version: 1.0.0
+ Template:  親テーマのフォルダ名をここに入れる   /* 例: twentytwentyfour, astra, hello-elementor 等 */
+ Text Domain: rakuruma-child
+*/
+
+/* 子テーマの独自CSSは必要ならここに書けますが、
+   今回は assets/css/rk.css にまとめます */

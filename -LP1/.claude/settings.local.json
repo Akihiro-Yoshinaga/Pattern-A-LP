@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(open http://localhost:3000/original)",
+      "Bash(grep:*)",
+      "Bash(open http://localhost:3000)",
+      "Bash(rm:*)",
+      "Bash(cp:*)",
+      "Bash(node:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": []
+  }
+}
