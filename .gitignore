@@ -1,0 +1,25 @@
+  # IDE・エディタ関連
+  .codeium/
+  .vscode/
+  .idea/
+
+  # Node.js関連
+  .nvm/
+  .npm/
+  node_modules/
+  npm-debug.log*
+
+  # macOS関連
+  .DS_Store
+  .AppleDouble
+  .LSOverride
+
+  # Git関連の一時ファイル
+  .git/objects/pack/tmp_pack_*
+
+  # その他の大きなファイル
+  *.dylib
+  *.node
+  *.tar.xz
+  EOF
+
