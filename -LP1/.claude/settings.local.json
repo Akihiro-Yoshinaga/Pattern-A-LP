@@ -1,15 +1,56 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(cat:*)",
-      "Bash(open http://localhost:3000/original)",
-      "Bash(grep:*)",
-      "Bash(open http://localhost:3000)",
-      "Bash(rm:*)",
-      "Bash(cp:*)",
-      "Bash(node:*)",
-      "Bash(curl:*)"
-    ],
-    "deny": []
+    "permissions": {
+      "allow": [
+        "Bash(git push:*)",
+        "Bash(windsurf:*)",
+        "Bash(ls:*)",
+        "Bash(git fetch:*)",
+        "Bash(git rev-list:*)",
+        "Bash(git remote set-url:*)",
+        "Bash(git pull:*)",
+        "Bash(git switch:*)",
+        "Bash(git stash:*)",
+        "Bash(git add:*)",
+        "Bash(git commit:*)",
+        "Bash(npm start)",
+        "Bash(PORT=3001 node app.js)",
+        "Bash(kill:*)",
+        "Bash(node:*)",
+        "Bash(npm:*)",
+        "Bash([ -f package-lock.json ])",
+        "Bash(timeout:*)",
+        "Bash(gtimeout:*)",
+        "Bash(python3:*)",
+        "Bash(open rakuruma-wordpress-design.html)",
+        "Bash(grep:*)",
+        "Bash(cp:*)",
+        "Bash(sed:*)",
+        "Bash(open /Users/yoshinagaakihiro/Documents/git/-LP1/rakuruma-wordpress-design.html)",
+        "WebFetch(domain:rakuruma.com)",
+        "Bash(rg:*)",
+        "Bash(claude doctor)",
+        "Bash(claude --version)",
+        "Bash(sudo npm update -g @anthropic-ai/claude-code)",
+        "Read(//Users/yoshinagaakihiro/Library/Application Support/Windsurf/User/**)",
+        "Read(//Users/yoshinagaakihiro/Desktop/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_yuAQnf/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_ykjstH/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_Yqkqmz/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_bYPhOD/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_X6gy1s/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_JhwRl6/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_QMJ5va/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_J6Lf64/**)",
+        "Read(//var/folders/48/nrkmvs6n18v871k_kl_hf_440000gn/T/TemporaryItems/NSIRD_screencaptureui_xnMPDM/**)",
+        "Bash(git submodule:*)",
+        "Bash(cat:*)",
+        "Bash(rm:*)",
+        "Bash(git ls-tree:*)",
+        "Bash(git rm:*)"
+      ],
+      "deny": [],
+      "additionalDirectories": [
+        "/Users/yoshinagaakihiro/.claude/local"
+      ]
+    }
   }
-}
